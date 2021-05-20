@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.picture {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+
+#welcome {
+    background: linear-gradient(yellow 0%, pink 100%, orange 100%);
+    height: 800px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    z-index: 9;
+}
+
+#bio {
+    padding: 50px;
+    padding-left: 500px;
+    text-align: center;
+    font-size: 25px;
+    max-width: 550px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    top: 10px;
+    z-index: 10;
+    position: fixed;
+    cursor: pointer;
+}
+
+.lists {
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: floralwhite;
+}
+
+.lists:hover {
+    background-color: aquamarine;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: darkturquoise;
+    text-shadow: 2px 2px blue;
+}
+
+#write a {
+    text-decoration: underline;
+    color: crimson;
+    text-shadow: none;
+}
+
+#con iframe {
+width: 100%;
+}
+#con{
+    background-color: #EC407A;
+}
+.choco h3{
+    display: inline;
+}
+.choco a{
+   color: #7E57C2;
+    text-shadow: none;  
+}
+
+
+
+
+
+
+}
+
+}
+
+.article:hover {
+    color: fuchsia;
+}
